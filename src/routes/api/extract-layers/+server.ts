@@ -4,7 +4,7 @@ import { env } from '$env/dynamic/private';
 import { GoogleGenAI } from '@google/genai';
 import sharp from 'sharp';
 
-const GEMINI_VISION_MODEL = 'gemini-2.0-flash';
+const GEMINI_VISION_MODEL = 'gemini-2.5-flash';
 const MAX_REGIONS = 12;
 
 const EXTRACTION_SCHEMA = {

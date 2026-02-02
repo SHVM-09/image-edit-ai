@@ -2,7 +2,7 @@
 
 ## 1. Information capture
 
-1. **Type of image** — PNG, SVG, JPG (ImageInfoForm: “1. Type of image”).
+1. **Type of image** — PNG, JPG (ImageInfoForm: “1. Type of image”).
 2. **Size and aspect ratio** — 1:1, 9:16, 16:9, custom (“2. Size and aspect ratio”).
 3. **Where the image will be used** — Website, Presentation, Documentation (“3. Where the image will be used”).
 4. **Description** — What should the image convey or message to the viewer? (“4. Description”).

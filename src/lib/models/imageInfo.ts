@@ -1,4 +1,4 @@
-export type ImageType = 'PNG' | 'SVG' | 'JPG';
+export type ImageType = 'PNG' | 'JPG';
 
 export type AspectRatio = '1:1' | '9:16' | '16:9' | 'custom';
 
@@ -26,7 +26,7 @@ export interface ImageSpec {
   referenceUrl: string;
 }
 
-export const IMAGE_TYPES: ImageType[] = ['PNG', 'SVG', 'JPG'];
+export const IMAGE_TYPES: ImageType[] = ['PNG', 'JPG'];
 
 export const ASPECT_RATIOS: AspectRatio[] = ['1:1', '9:16', '16:9', 'custom'];
 

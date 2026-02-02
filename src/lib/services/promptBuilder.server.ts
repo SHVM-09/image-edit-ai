@@ -3,7 +3,7 @@ import { GoogleGenAI } from '@google/genai';
 import { buildPromptFromSpec } from './promptBuilder';
 import type { ImageSpec } from '$lib/models/imageInfo';
 
-const GEMINI_MODEL = 'gemini-2.0-flash';
+const GEMINI_MODEL = 'gemini-2.5-flash';
 
 /**
  * Uses Gemini to produce a well-structured LLM image generation prompt from an ImageSpec.

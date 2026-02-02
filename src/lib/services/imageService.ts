@@ -8,7 +8,7 @@ export const GEMINI_IMAGE_MODEL = 'gemini-2.5-flash-image';
 
 export type ImageSize = '1:1' | '9:16' | '16:9' | 'custom';
 
-export type ImageFormat = 'PNG' | 'JPG' | 'SVG';
+export type ImageFormat = 'PNG' | 'JPG';
 
 export interface ImageService {
   generateImage(
